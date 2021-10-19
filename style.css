@@ -1,10 +1,25 @@
-h1 {
+.hero h1 {
   font-family: "Playfair Display", serif;
+  font-size: 96px;
 }
-p {
+.hero h2 {
+  font-size: 24px;
+}
+.hero h3 {
+  font-size: 36px;
+}
+.hero p,
+h2,
+.btn {
   font-family: "Poppins", sans-serif;
+  color: #272142;
 }
-.fab {
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 400;
+.hero {
+  text-align: center;
+  background-color: #f9f7fe;
+}
+
+.hero .btn {
+  background-color: #6c63ff;
+  color: #ffffff;
 }
