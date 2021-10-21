@@ -19,6 +19,13 @@ p {
   color: #272142;
   line-height: 30px;
 }
+hr {
+  color: var(--branding-color);
+}
+a,
+a:visited {
+  color: var(--branding-color);
+}
 .hero h1 {
   color: #000000;
   font-family: var(--heading-font-family);
@@ -54,7 +61,13 @@ p {
   padding: 15px 30px;
 }
 .project-container {
-  padding: 120px 60px;
+  padding: 50px 60px;
+}
+.container-social {
+  display: flex;
+  color: var(--branding-color);
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 @media (max-width: 960px) {
   .project-container {
