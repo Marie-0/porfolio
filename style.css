@@ -17,11 +17,13 @@ p {
   font-size: 16px;
   font-weight: 500;
   color: #272142;
+  line-height: 30px;
 }
 .hero h1 {
   color: #000000;
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
 .hero h2 {
   font-size: 24px;
@@ -50,4 +52,19 @@ p {
   color: var(--branding-color);
   font-size: 18px;
   padding: 15px 30px;
+}
+.project-container {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  .project-container {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 42px;
+  }
 }
