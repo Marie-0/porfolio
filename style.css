@@ -46,7 +46,8 @@ a:visited {
   padding: 160px 20px;
 }
 
-.hero .btn-branding {
+.hero .btn-branding,
+.about-me .btn-branding {
   background-color: var(--branding-color);
   color: #ffffff;
   border-radius: 4px;
@@ -69,6 +70,22 @@ a:visited {
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
+.about-me h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-me h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+}
+.about {
+  padding: 160px 20px;
+}
+.about-me .profile-pic {
+  border-radius: 15px;
+}
 @media (max-width: 960px) {
   .project-container {
     padding: 0;
@@ -82,5 +99,14 @@ a:visited {
   }
   .hero h2 {
     font-size: 24px;
+  }
+  .about-me {
+    text-align: center;
+  }
+  .about-me {
+    padding: 0%;
+  }
+  .about {
+    padding-top: 20px;
   }
 }
