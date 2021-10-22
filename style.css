@@ -70,7 +70,7 @@ a:visited {
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
-.about-text h1 {
+.about .about-text h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 80px;
@@ -79,6 +79,9 @@ a:visited {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: 600;
+}
+.about-text {
+  margin: 30px;
 }
 .about {
   padding: 160px 20px;
@@ -101,13 +104,11 @@ a:visited {
   .hero h2 {
     font-size: 24px;
   }
-  .about-me {
+  .about-text {
     text-align: center;
-  }
-  .about-me {
     padding: 0%;
   }
   .about {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
