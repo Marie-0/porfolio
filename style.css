@@ -47,7 +47,7 @@ a:visited {
 }
 
 .hero .btn-branding,
-.about .btn-branding {
+.content-container .btn-branding {
   background-color: var(--branding-color);
   color: #ffffff;
   border-radius: 4px;
@@ -70,25 +70,35 @@ a:visited {
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
-.about .about-text h1 {
+.content-container .content h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 80px;
 }
-.about-text h2 {
+.content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: 600;
 }
-.about-text {
+.content {
   margin: 30px;
 }
-.about {
+.content-container {
   padding: 160px 20px;
+  margin: 0 60px;
 }
-.about .profile-pic {
+.content-container .col-md-6 {
+  margin: 0px 0px 24px;
+  padding: 0px 12px;
+}
+.content-container.profile-pic {
   border-radius: 15px;
   width: 100%;
+}
+.content-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 @media (max-width: 960px) {
   .project-container {
@@ -104,11 +114,11 @@ a:visited {
   .hero h2 {
     font-size: 24px;
   }
-  .about-text {
+  .content {
     text-align: center;
     padding: 0%;
   }
-  .about {
+  .content-container {
     padding-top: 15px;
   }
 }
