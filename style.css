@@ -62,13 +62,14 @@ nav li.active a {
 }
 .hero h3 {
   font-size: 36px;
+  font-weight: bold;
   color: #272142;
 }
 
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero .btn-branding,
@@ -86,6 +87,10 @@ nav li.active a {
   color: var(--branding-color);
   font-size: 18px;
   padding: 15px 30px;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  color: #000000;
 }
 .project-container {
   padding: 50px 60px;

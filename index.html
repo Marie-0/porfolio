@@ -21,15 +21,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Patricia Pereira is a front-end engineer, currently based in Portugal. Here is a selection of Patricia's latest projects."
+    />
+    <title>Front-End developer - Patricia</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <img
           src="/images/logo.png"
-          alt="logo shecodes"
+          alt="Logo shecodes"
           class="logo d-none d-md-block"
         />
         <img
@@ -38,38 +41,46 @@
           class="logo d-block d-md-none"
         />
         <ul>
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Patricia">About</a></li>
+          <li><a href="/work.html" title="Patricia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Patricia">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="hero">
       <h3>👋 Hello, I am</h3>
-      <h1>Marie-Odile</h1>
-      <h2 class="mb-5">Front-end developer based in Paris</h2>
-      <div><a href="/about.html" class="btn btn-branding">Get Started</a></div>
+      <h1>Patricia Perreira</h1>
+      <h2 class="mb-5">Front-end developer based in Portugal</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">
-      👇 Here you can have a look at some of my ✨coolest✨ projects 👀
+      👇 Check out some of my featured projects below 👀
     </p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="/images/Podcast-project.png"
-            alt="Yogurt Project"
+            src="/images/yogurt.png"
+            alt="Yogurt Project Preview"
             class="img-fluid rounded"
           />
         </div>
         <div class="col">
           <div class="project-container">
-            <h2 class="mb-5">Podcast Project</h2>
+            <h2 class="mb-5">Yogurt Landing Page</h2>
             <p class="mb-5 text-muted-50">
-              The Podcast Page project was the first page I coded to highlight
-              my podcast on Art. I wanted to share my passion and my work thanks
-              to the new skills I had just acquired thanks to the great
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about Yogurt. The page utilizes JavaScript functions
+              to create user interaction.
               <a href="https://www.shecodes.io">SheCodes.io</a> introduction to
               coding course.
             </p>
@@ -89,11 +100,12 @@
           <div class="project-container">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted-50">
-              The Weather App project is the first project I coded with
-              javascript using real life data you can get with the correct APIs
-              so you can check the weather but... I made it Arty! You'll get an
-              artwork that is part of Art History, according to the weather.
-              Check out different cities to see all of them!
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API’s, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
             </p>
             <div>
               <a
@@ -107,8 +119,8 @@
         </div>
         <div class="col d-none d-lg-block">
           <img
-            src="/images/weather-arty-app.png"
-            alt="Weather App Project"
+            src="/images/weather-app.png"
+            alt="Weather App Project Preview"
             class="img-fluid rounded"
           />
         </div>
@@ -117,7 +129,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/dictionary-app.png"
-            alt="Yogurt Project"
+            alt="Dictionary Project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -125,12 +137,12 @@
           <div class="project-container">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted-50">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I immersed myself in React development in SheCodes React. I used
+              my knowledge of this highly-demanded framework to build a working
+              dictionary app incorporating coding best practices, along with the
+              most popular tools and technologies.
             </p>
-            <div><a href="#" class="btn-outline">Learn more</a></div>
+            <div><a href="/work.html" class="btn-outline">Learn more</a></div>
           </div>
         </div>
       </div>
@@ -151,25 +163,51 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Go to Contact Page"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:patricia@gmail.com" class="email-link"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Send an e-mail"
             >patrica@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/patricia/" target="_blank"
+          <a
+            href="https://github.com/patricia/"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.instagram.com/patricia/" target="_blank"
+          <a
+            href="https://www.instagram.com/patricia/"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://twitter.com/patricia" target="_blank">
+          <a
+            href="https://twitter.com/patricia"
+            target="_blank"
+            title="Twitter Profile"
+          >
             <i class="fab fa-twitter"></i
           ></a>
         </div>
+        <p class="mt-4 text-center">
+          ✌️ This website was coded by Patricia Pereira, and is
+          <a
+            href="https://github.com/Marie-0/porfolio"
+            title="Link to the Github repository"
+            >open-sourced</a
+          >
+        </p>
       </div>
     </footer>
     <script
